@@ -1,0 +1,173 @@
+body{
+  margin: 0px;
+  color: #180A0A;
+  text-align: center;
+  font-family: 'Vollkorn', serif;
+  font-size: 20px;
+  background-color: #789395;
+}
+
+h1{
+  font-family: 'Great Vibes', cursive;
+  font-size: 80px;
+  margin: 0;
+  color: #180A0A;
+}
+
+.top-box{
+  background-color: #E5E3C9;
+  position: relative;
+  padding-top: 100px;
+  border: solid;
+  /* border-radius: 30px; */
+  border-color: #E45826;
+  height: auto;
+
+}
+
+.skills-box{
+  background-color: #B4CFB0;
+  position: relative;
+  padding-top: 30px;
+  border: solid;
+  /* border-radius: 30px; */
+  border-color: #E45826;
+
+}
+
+.experience-box{
+  background-color: #94B49F;
+  position: relative;
+  padding-top: 30px;
+  border: solid;
+  /* border-radius: 30px; */
+  border-color: #E45826;
+  /* height: 550px; */
+}
+
+.education-box{
+  background-color: #789395;
+  position: relative;
+  padding-top: 30px;
+  border: solid;
+  /* border-radius: 30px; */
+  border-color: #E45826;
+  /* height: 550px; */
+}
+
+.top-header{
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.footer-par{
+  position: absolute;
+  left: 800px;
+  top:50px;
+}
+
+.header-par{
+  position: absolute;
+  font-size: 25px;
+  top: 50%;
+
+  width: 30%;
+}
+
+.menu-button{
+  background-color: #E45826;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  font-family: 'Vollkorn', serif;
+
+  /* font-size: 30px; */
+}
+
+.menu-button:hover{
+  height:40px;
+  width: 80px;
+  font-size: 20px;
+}
+
+.menu{
+  position: absolute;
+  display: inline-block;
+  right: 30px;
+  top:40px;
+}
+
+footer{
+  background-color: White;
+  position: relative;
+  padding-top: 50px;
+  border-bottom: solid;
+  border-color: #E45826;
+
+}
+
+.skill-table{
+  /* position: absolute;
+  left: 500px;
+  top: 160px; */
+  font-size: 35px;
+  text-align: justify;
+}
+
+.experience-table{
+  text-align: justify;
+  position: absolute;
+  left: 500px;
+  top: 160px;
+  font-size: 35px;
+
+}
+
+/* ul{
+  position: absolute;
+  left: 500px;
+  text-align: justify;
+  top:50px;
+  font-size: 35px;
+} */
+
+li{
+  text-align: center;
+}
+.instagram{
+  padding: 5px 0px 0px 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.grad{
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  left: 120px;
+  bottom: 150px;
+}
+
+.knowledge{
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  left: 120px;
+  bottom: 100px;
+}
+
+.experience{
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  left: 120px;
+  bottom: 150px;
+}
+
+.bicycle{
+  position: relative;
+  right: 250px;
+  height: auto;
+  width: auto;
+  left: 200px;
+}
