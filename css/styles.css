@@ -97,6 +97,28 @@ h1{
   top:40px;
 }
 
+.submit-button{
+  background-color: #E45826;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  font-family: 'Vollkorn', serif;
+}
+
+input{
+  background-color: #FBF8F1;
+  width: 15%;
+  border-radius: 10px;
+  border-color: #FBF8F1;
+}
+
+textarea{
+  width: 30%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #FBF8F1;
+}
+
 footer{
   background-color: White;
   position: relative;
