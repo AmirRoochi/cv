@@ -8,18 +8,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Vollkorn:ital@1&family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
     <title>Contact Me</title>
   </head>
   <body>
     <div class="top-box">
-      <div class="menu">
-        <button onclick="document.location='index.html'" class="menu-button" type="button" name="button">Home</button>
-        <button onclick="document.location='contact.html'" class="menu-button" type="button" name="button">Contact</button>
-        <button onclick="document.location='lessons.html'" class="menu-button" type="button" name="button">Lessons</button>
-        <button onclick="location.href='https://github.com/AmirRoochi'" class="menu-button" type="button" name="button">GitHub</button>
+      <!-- <div class="menu">
+        <button onclick="document.location='index.html'" class="btn btn-dark" type="button" name="button">Home</button>
+        <button onclick="document.location='contact.html'" class="btn btn-dark" type="button" name="button">Contact</button>
+        <button onclick="document.location='lessons.html'" class="btn btn-dark" type="button" name="button">Lessons</button>
+        <button onclick="location.href='https://github.com/AmirRoochi'" class="btn btn-dark" type="button" name="button">GitHub</button>
+      </div> -->
+      <nav class="navbar navbar-expand-lg menu-bar">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-1">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./lessons.html">Learn</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
       </div>
+    </div>
+  </nav>
       <h1>Contact Me</h1>
       <form class="" action="mailto: amirroochi@gmail.com" method="post" enctype="text/plain">
         <label for="">Your Name: </label>
