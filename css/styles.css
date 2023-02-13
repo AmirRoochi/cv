@@ -9,7 +9,7 @@ body{
 
 h1{
   font-family: 'Great Vibes', cursive;
-  font-size: 80px;
+  font-size: 6rem;
   margin: 0;
   color: #180A0A;
 }
@@ -17,12 +17,16 @@ h1{
 .top-box{
   background-color: #E5E3C9;
   position: relative;
-  padding-top: 100px;
+  padding-top: 2rem;
   border: solid;
   /* border-radius: 30px; */
   border-color: #E45826;
   height: auto;
 
+}
+
+.menu-bar {
+    background-color: #E5E3C9;
 }
 
 .skills-box{
@@ -33,6 +37,12 @@ h1{
   /* border-radius: 30px; */
   border-color: #E45826;
 
+
+}
+
+.skills-box > div{
+    width: 50%;
+    margin: auto;
 }
 
 .experience-box{
@@ -132,9 +142,12 @@ footer{
   /* position: absolute;
   left: 500px;
   top: 160px; */
+  display: flex;
+  flex-flow: row wrap;
   font-size: 35px;
   text-align: justify;
 }
+
 
 .experience-table{
   text-align: justify;
@@ -150,21 +163,23 @@ ul{
   margin: auto;
 }
 
-
 .instagram{
   padding: 5px 0px 0px 5px;
   height: 20px;
   width: 20px;
 }
 
-.grad{
-  position: absolute;
-  height: 250px;
-  width: 200px;
-  left: 120px;
-  bottom: 150px;
+
+.row{
+  margin: auto;
 }
 
+.row > p{
+  width: 50%;
+  text-align: center;
+  padding-left: 30px;
+  float: clear;
+}
 .knowledge{
   position: absolute;
   height: 250px;
@@ -187,4 +202,17 @@ ul{
   height: auto;
   width: auto;
   left: 200px;
+}
+
+a{
+  color: ##11999E;
+}
+
+a:hover{
+  font-size: 22px;
+}
+
+.skill-row{
+  width: 20%;
+
 }
